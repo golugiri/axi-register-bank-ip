@@ -1,0 +1,124 @@
+$date
+	Sun Oct 25 13:13:14 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_axi_register_bank $end
+$var wire 32 ! reg_rd_data [31:0] $end
+$var wire 32 " control_reg_1 [31:0] $end
+$var wire 32 # control_reg_0 [31:0] $end
+$var parameter 32 $ ADDR_WIDTH $end
+$var parameter 32 % DATA_WIDTH $end
+$var reg 1 & clk $end
+$var reg 8 ' reg_addr [7:0] $end
+$var reg 32 ( reg_wr_data [31:0] $end
+$var reg 1 ) reg_wr_en $end
+$var reg 1 * rst_n $end
+$var reg 32 + status_reg_0 [31:0] $end
+$scope module uut $end
+$var wire 1 & clk $end
+$var wire 8 , reg_addr [7:0] $end
+$var wire 32 - reg_wr_data [31:0] $end
+$var wire 1 ) reg_wr_en $end
+$var wire 1 * rst_n $end
+$var wire 32 . status_reg_0 [31:0] $end
+$var parameter 32 / ADDR_WIDTH $end
+$var parameter 32 0 DATA_WIDTH $end
+$var reg 32 1 control_reg_0 [31:0] $end
+$var reg 32 2 control_reg_1 [31:0] $end
+$var reg 32 3 reg_rd_data [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100000 0
+b1000 /
+b100000 %
+b1000 $
+$end
+#0
+$dumpvars
+b0 3
+b0 2
+b0 1
+b11011110101011011011111011101111 .
+b0 -
+b0 ,
+b11011110101011011011111011101111 +
+0*
+0)
+b0 (
+b0 '
+0&
+b0 #
+b0 "
+b0 !
+$end
+#5000
+1&
+#10000
+0&
+#15000
+1&
+#20000
+0&
+1*
+#25000
+1&
+#30000
+0&
+#35000
+b10010001101000101011001111000 !
+b10010001101000101011001111000 3
+b10010001101000101011001111000 #
+b10010001101000101011001111000 1
+1)
+b10010001101000101011001111000 (
+b10010001101000101011001111000 -
+1&
+#40000
+0&
+#45000
+b11001010111111101011101010110000 "
+b11001010111111101011101010110000 2
+b11001010111111101011101010110000 !
+b11001010111111101011101010110000 3
+b11001010111111101011101010110000 (
+b11001010111111101011101010110000 -
+b1 '
+b1 ,
+1&
+#50000
+0&
+#55000
+0)
+1&
+#60000
+0&
+#65000
+b10010001101000101011001111000 !
+b10010001101000101011001111000 3
+b0 '
+b0 ,
+1&
+#70000
+0&
+#75000
+b11011110101011011011111011101111 !
+b11011110101011011011111011101111 3
+b10 '
+b10 ,
+1&
+#80000
+0&
+#85000
+1&
+#90000
+0&
+#95000
+1&
